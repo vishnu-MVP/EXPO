@@ -23,6 +23,8 @@ nav {
 nav a {
     color: purple;
     padding: 14px 20px;
+    padding-right: 80px;
+    padding-left: 20px;
     text-decoration: none;
     font-size: large;
     font-weight: bold;
