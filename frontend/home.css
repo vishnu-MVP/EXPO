@@ -59,6 +59,7 @@ nav a:hover {
     position:absolute;
     top: 50%;
     background: transparent;
+    left: 250px;
  }
  .left-arrow
  {
@@ -67,15 +68,18 @@ nav a:hover {
     margin: 5px;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-right: 20px solid lawngreen;
+    border-right: 20px solid red;
  }
-
+ .larrow-move {
+    position: relative;
+    animation: move 2s ease-in-out infinite;
+ }
  .rarrow-container {
     display: flex;
     align-items: center;
     position:absolute;
     top: 50%;
-    right: 20px;
+    right: 250px;
  }
  .right-arrow
  {
@@ -87,9 +91,9 @@ nav a:hover {
     height: 0;
     border-top: 20px solid transparent; 
     border-bottom: 20px solid transparent;
-    border-left: 20px solid lawngreen; 
+    border-left: 20px solid red; 
  }
- .arrow-move {
+ .rarrow-move {
     position: relative;
     animation: move 2s ease-in-out infinite;
  }
