@@ -1,4 +1,4 @@
-body{
+.hbody{
     background-image:url("forest7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,6 +10,21 @@ body{
     padding-left:10px;
     padding-right: 10px;
 }
+.hprofile-icon {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hprofile-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 nav {
     background-color: #fff;
     overflow: hidden;

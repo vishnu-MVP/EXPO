@@ -1,4 +1,4 @@
-body{
+.lbody{
     background-image:url("forest2.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,7 +8,11 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.lcontainer{
    
     height:350px;
     width: 500px;
@@ -19,12 +23,12 @@ body{
     opacity: 0.8;
     padding-left: 8px;
 }
-.label{
+.llabel{
     color:lawngreen;
     font-size:x-large;
     font-weight: bold;
 }
-.input{
+.linput{
     height:30px;
     width:300px;
     border-radius: 8px;
@@ -33,7 +37,7 @@ body{
     margin: 5px;
 }
 
-.submit{
+.lsubmit{
     margin-top: 30px;
    
     justify-content: center;
@@ -47,7 +51,7 @@ body{
     font-size: large;
     cursor: pointer;
 }
-.submit-1:hover{
+.lsubmit-1:hover{
         background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
         animation:slidebg 5s linear infinite;
      
