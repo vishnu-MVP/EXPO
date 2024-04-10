@@ -1,0 +1,37 @@
+body{
+  background-image:url("Forest2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  font-family: sans-serif;
+}
+.maincon{
+  padding-top:275px;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.rainbow{
+  height:50px;
+  width: 350px;
+  font-size:x-large;
+  font-weight: bolder;
+  border-radius: 10px;
+  opacity: 0.8;
+  background-color: lawngreen;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  border:2.5px solid black;
+  cursor: pointer;
+}
+.rainbow:hover{
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 5s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
