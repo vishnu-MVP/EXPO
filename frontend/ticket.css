@@ -10,7 +10,7 @@
 }
 .tcontainer{
     background-color: black;
-    height: 200px;
+    height: 150px;
     width: 500px;
     color: white;
     opacity: 0.8;
@@ -22,5 +22,12 @@
     color: lawngreen;
     font-size: larger;
     font-weight: bold;
-    margin: 5px 5px 5px 20px;
+    margin: 25px 5px 5px 20px;
+}
+.udetail{
+    color: white;
+    margin: 10px 5px 5px 20px;
+    font-size: larger;
+    font-weight: bold;
+
 }
