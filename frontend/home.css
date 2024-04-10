@@ -53,3 +53,54 @@ nav a:hover {
       background-position:20vw;
     }
   }
+  .larrow-container {
+    display: flex;
+    align-items: center;
+    position:absolute;
+    top: 50%;
+    background: transparent;
+ }
+ .left-arrow
+ {
+    width: 0;
+    height: 0;
+    margin: 5px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid lawngreen;
+ }
+
+ .rarrow-container {
+    display: flex;
+    align-items: center;
+    position:absolute;
+    top: 50%;
+    right: 20px;
+ }
+ .right-arrow
+ {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(-90deg);
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent; 
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid lawngreen; 
+ }
+ .arrow-move {
+    position: relative;
+    animation: move 2s ease-in-out infinite;
+ }
+ @keyframes move {
+    0% {
+       transform: translateY(0);
+    }
+    50% {
+       transform: translateY(-10px);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ }
