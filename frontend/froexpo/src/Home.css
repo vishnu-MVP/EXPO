@@ -1,0 +1,55 @@
+.hbody{
+    background-image:url("forest7.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+.hprofile-icon {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hprofile-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    border-radius: 10px;
+    border:2px solid black;
+    opacity: 0.6;
+}
+nav a {
+    color: purple;
+    padding: 14px 20px;
+    padding-right: 80px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+nav a:hover {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }

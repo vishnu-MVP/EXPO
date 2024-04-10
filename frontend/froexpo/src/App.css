@@ -30,6 +30,7 @@ body{
   animation:slidebg 5s linear infinite;
 }
 
+
 @keyframes slidebg {
   to {
     background-position:20vw;
