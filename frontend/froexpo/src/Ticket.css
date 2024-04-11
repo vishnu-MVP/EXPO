@@ -1,0 +1,50 @@
+.tbody{
+    background-image:url("Forest1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tcontainer{
+    background-color: black;
+    height: 150px;
+    width: 500px;
+    color: white;
+    opacity: 0.8;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.tlabel{
+    color: lawngreen;
+    font-size: larger;
+    font-weight: bold;
+    margin: 25px 5px 5px 20px;
+}
+.udetail{
+    color: white;
+    margin: 10px 5px 5px 20px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.tsubmit{
+
+        margin-top: 30px;
+       
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 200px;
+        border-radius: 10px;
+        border:2px solid black;
+        background-color:lawngreen;
+        font-weight: bold;
+        font-size: large;
+        cursor: pointer;
+    
+}

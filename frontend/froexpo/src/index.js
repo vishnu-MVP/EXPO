@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Ticket from './Ticket'
 import Home from './Home';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -14,7 +15,7 @@ root.render(
       <Route path='/' element={<App />}></Route>
       <Route path='ticket' element={<Login/>}></Route>
       <Route path='home' element={<Home />}></Route>
-      
+      <Route path='viewticket' element={<Ticket />}></Route>
     </Routes>
     </BrowserRouter>
    
