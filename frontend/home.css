@@ -34,9 +34,11 @@ nav {
     border-radius: 10px;
     border:2px solid black;
     opacity: 0.6;
+    background-color: lawngreen;
 }
 nav a {
-    color: purple;
+    text-align: center;
+    color: black;
     padding: 14px 20px;
     padding-right: 80px;
     padding-left: 20px;
