@@ -25,8 +25,9 @@
     object-fit: cover;
 }
 
+
 nav {
-    background-color: #fff;
+    background-color: lawngreen;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -34,9 +35,12 @@ nav {
     border-radius: 10px;
     border:2px solid black;
     opacity: 0.6;
+   
+    height: 50px;
 }
 nav a {
-    color: purple;
+    text-align: center;
+    color: black;
     padding: 14px 20px;
     padding-right: 80px;
     padding-left: 20px;
@@ -97,6 +101,31 @@ nav a:hover {
     position: relative;
     animation: move 2s ease-in-out infinite;
  }
+ #himage{
+   height:200px;
+   width:400;
+   margin-top: 20px;
+   margin-left:75px;
+   border-radius: 10px;
+   border:5px solid yellow;
+  
+ }
+ .hcontainer{
+   background-color: black;
+   height: 520px;
+   width: 500px;
+   border-radius: 10px;
+   border-color: 5px solid black;
+   margin-left: 500px;
+   margin-top: 100px;
+   opacity: 0.85;
+ }
+ .pclass{
+   color: white;
+   padding: 2px 10px 10px 20px;
+   font-size: small;
+
+ }
  @keyframes move {
     0% {
        transform: translateY(0);
@@ -107,4 +136,7 @@ nav a:hover {
     100% {
        transform: translateY(0);
     }
+
  }
+
+ 
